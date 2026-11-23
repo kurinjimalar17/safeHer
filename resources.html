@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resources - SafeHer</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/content.css">
+</head>
+
+<body>
+<div class="container-fluid page-container">
+    <header class="header">
+        <div>
+            <h1>SafeHer<span>.</span></h1>
+            <p>Awareness | Confidence | Safety</p>
+        </div>
+        <p class="header-text">Help is Always Available</p>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+
+            <a class="navbar-brand" href="index.html">SafeHer</a>
+
+            <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="safety-tips.html">Safety Tips</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="resources.html">Resources</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="rights.html">Legal Rights</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+    <div class="row page-layout">
+
+        <!-- Sidebar -->
+        <aside class="col-lg-3 sidebar">
+
+            <h3>Quick Links</h3>
+
+            <ul>
+                <li><a href="#helpline">Helpline Numbers</a></li>
+                <li><a href="#emergency">Emergency Steps</a></li>
+                <li><a href="#audio">Audio Guide</a></li>
+                <li><a href="#pdf">PDF Guide</a></li>
+                <li><a href="#support">Support</a></li>
+                <li><a href="safety-tips.html">Safety Tips</a></li>
+                <li><a href="rights.html">Legal Rights</a></li>
+            </ul>
+            <div class="side-box">
+                <h4>Emergency</h4>
+                <h2 class="emergency-number">112</h2>
+                <p>National Emergency Response Number in India.</p>
+            </div>
+        </aside>
+        <!-- Main Content -->
+        <main class="col-lg-9 content">
+
+            <section class="page-heading">
+                <h2>Safety Resources</h2>
+
+                <p>
+                    Find useful emergency information,
+                    awareness materials and safety guides.
+                </p>
+            </section>
+
+            <!-- Three Column Resource Cards -->
+            <section id="helpline">
+
+                <h3>Important Helpline Numbers</h3>
+
+                <div class="row g-3">
+
+                    <div class="col-md-4">
+                        <div class="resource-card">
+                            <h4>112</h4>
+                            <p>National Emergency Number</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="resource-card">
+                            <h4>181</h4>
+                            <p>Women Helpline</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="resource-card">
+                            <h4>1930</h4>
+                            <p>Cyber Financial Fraud Helpline</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <p class="small-note">
+                    Helpline availability can vary by state.
+                    Verify local services when possible.
+                </p>
+
+            </section>
+
+            <!-- Emergency Steps -->
+            <section id="emergency" class="article">
+
+                <h3>What to Do During an Emergency</h3>
+
+                <ol>
+                    <li>Move to a safe and public place if possible.</li>
+                    <li>Call 112 for immediate emergency assistance.</li>
+                    <li>Contact a trusted person.</li>
+                    <li>Share your location if it is safe to do so.</li>
+                    <li>Follow instructions from emergency responders.</li>
+                </ol>
+
+            </section>
+            <!-- Audio -->
+            <section id="audio" class="media-box">
+                <h3>Listen to Safety Awareness</h3>
+                <p>
+                    Listen to this short safety reminder
+                    and remember these important habits.
+                </p>
+                <audio controls>
+                    <source src="media/safety-audio.mp3"
+                            type="audio/mpeg">
+
+                    Your browser does not support audio.
+                </audio>
+            </section>
+            <!-- PDF -->
+            <section id="pdf" class="media-box">
+
+                <h3>Women's Safety PDF Guide</h3>
+
+                <p>
+                    Read our safety guide to learn about
+                    personal safety, travel and digital security.
+                </p>
+
+                <iframe src="media/safety-guide.pdf"
+                        width="100%" height="400"
+                        title="Women's Safety PDF Guide">
+                </iframe>
+
+                <br><br>
+
+                <a href="media/safety-guide.pdf"
+                   download class="btn btn-dark">
+                    Download PDF Guide
+                </a>
+            </section>
+            <!-- Support -->
+            <section id="support" class="support-box">
+                <h3>You Are Not Alone!</h3>
+                <p>
+                    Every woman deserves respect, dignity
+                    and safety. Speak up, seek support
+                    and help others when needed.
+                </p>
+                <a href="https://www.ncw.gov.in/"
+                   target="_blank" rel="noopener">
+                    National Commission for Women →
+                </a>
+            </section>
+        </main>
+    </div>
+    <footer class="footer">
+        <p>&copy;2026 SafeHer | Women's Safety Awareness</p>
+        <p>Be Aware • Be Prepared • Be Safe</p>
+    </footer>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
